@@ -8,7 +8,6 @@ link_directories(${CalcComponent_BINARY_DIR}/src)
 
 
 add_executable(CalcApp src/CalcApp.cpp)
-target_link_libraries(CalcApp CalcComponent)
 
 install(TARGETS CalcApp DESTINATION bin)
 
